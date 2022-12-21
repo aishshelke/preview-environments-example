@@ -3,8 +3,8 @@ name: trivial-go-web-app
 env: staging
 namespace: staging
 image:
-  name: webserver-simple
-  tag: 'a9f44751c23820745efef75e7a053b3ed8da6f8a'
+  name: public.ecr.aws/f3e8a4f2/angularapp
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   type: LoadBalancer
